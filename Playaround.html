@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+	<title>Scentific reasearch</title>
+<style>
+	body{
+		background: black;
+		color: lightgoldenrodyellow;
+		text-decoration-style: revert-layer0;
+		text-align: center;
+		#greetings{
+				color: goldenrod;
+				font-size:280px ;
+				float: inline-start;
+			}
+
+				.Occupation{
+					font-style: unset;
+					font-size: 160px;
+					float: down;
+				}
+		#resume{
+			font-size: 100px;
+			font-style: fantasy;
+		}
+</style>
+</head>
+<body>
+	<img src="Slim.jpeg" width="20%" height="30%">
+		<p id="greetings">My name is Slim Shady
+		<p class=Occupation>Junior web developer and musical artist
+        <a href="https://www.youtube.com/watch?v=eJO5HU_7_1w">Here is one of my work</a>
+
+        <p id="resume">I was a former employe at macdonalds but resign to persue other cereer paths. i have near to 2 years of coding Python and an internship at Google altho my highest education is secondary school</p>
+
+		<h5><p id="para1"></p></h5>
+		<p id="para2"></p>
+		<button onclick="functionUnhide()">unshow</button>	
+		<button onclick="functionHide()">Show</button>
+		
+		</body>
+		</html>
+<script> 
+	document.getElementById("para1").innerHTML = "My Personal Information";
+	document.getElementById("para1").style.color = "yellow";
+	document.getElementById("para2").innerHTML = "Phone number 88XX XXXX";
+	
+	    function functionUnhide(){
+	    	document.getElementById("para2").style.display = "block"
+	    }
+	    function functionHide(){
+		document.getElementById("para2").style.display = "none"
+	    }
+
+</script>
